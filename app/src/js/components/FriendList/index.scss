@@ -1,0 +1,41 @@
+.friend-list-container {
+  width: 100%;
+  height: 100vh;
+  border-right: 1px solid #ccc;
+
+  .topic {
+    text-align: center;
+    font-size: 15px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+  }
+}
+
+.friend-item-container {
+  width: 100%;
+  padding: 10px 5px;
+  cursor: pointer;
+
+  &.active,
+  &:hover {
+    background: #eee;
+  }
+
+  .avatar-side {
+    display: inline-block;
+    width: 20%;
+  }
+  
+  .detail-side {
+    display: inline-block;
+    width: 80%;
+    padding: 5px 10px;
+  }
+
+  .avatar {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #999;
+  }
+}

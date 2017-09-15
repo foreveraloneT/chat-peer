@@ -1,0 +1,14 @@
+export const ACTION_TYPE = 'ACTION_TYPE'
+
+// user list
+export const USER_LIST_REQUEST = 'USER_LIST_REQUEST'
+export const USER_LIST_SUCCESS = 'USER_LIST_SUCCESS'
+export const USER_LIST_FAILURE = 'USER_LIST_FAILURE'
+
+// freind list
+export const FRIEND_LIST_REQUEST = 'FRIEND_LIST_REQUEST'
+export const FRIEND_LIST_SUCCESS = 'FRIEND_LIST_SUCCESS'
+export const FRIEND_LIST_FAILURE = 'FRIEND_LIST_FAILURE'
+
+// select friend
+export const SELECT_FRIEND = 'SELECT_FRIEND'
