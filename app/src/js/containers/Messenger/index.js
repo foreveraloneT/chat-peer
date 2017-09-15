@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Navbar from '../Navbar'
 import FriendList from '../Friendlist'
+import ChatWindow from '../ChatWindow'
+import './index.scss'
 
 export default class MessengerContainer extends Component {
   doLogout = () => {
@@ -12,9 +14,12 @@ export default class MessengerContainer extends Component {
       <div>
         <Navbar
           onLogout = { this.doLogout } />
-        <div className='row'>
-          <div className='col-md-3'>
+        <div className='messenger-container'>
+          <div className='friend-list-box'>
             <FriendList />
+          </div>
+          <div className='chat-window-box'>
+            <ChatWindow />
           </div>
         </div>
       </div>

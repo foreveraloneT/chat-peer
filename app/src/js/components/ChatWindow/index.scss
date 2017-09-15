@@ -1,0 +1,12 @@
+.chat-window-container {
+  width: 100%;
+  height: 100vh;
+  border-right: 1px solid #ccc;
+
+  .topic {
+    text-align: center;
+    font-size: 15px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+  }
+}

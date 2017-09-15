@@ -1,0 +1,12 @@
+.messenger-container {
+  width: 100%;
+  display: flex;
+
+  .friend-list-box {
+    width: 25%;
+  }
+
+  .chat-window-box {
+    width: 50%;
+  }
+}
