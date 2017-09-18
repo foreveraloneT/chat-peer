@@ -5,7 +5,7 @@ import './index.scss'
 const ChatDialog = ({
   chatHistory,
 }) => (
-  <div className='chat-dialog-container'>
+  <div className='chat-dialog-container' id='chatDialog'>
     {
       chatHistory.map((chatItem, index) => (
         <div key={index}>

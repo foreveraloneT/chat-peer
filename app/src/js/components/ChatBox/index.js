@@ -20,8 +20,8 @@ const ChatBox = ({
     <div
       className='send-button-area'
       onClick={ () => {
-        onSendMessage()
         document.getElementById('textChat').value = ''
+        onSendMessage()
       } } >
       <i className='ion-android-send send-button'></i>
     </div>

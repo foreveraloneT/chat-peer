@@ -30,6 +30,11 @@ class ChatWindowContainer extends Component {
     this.props.requestPeerReceive(this.state.peer)
   }
 
+  componentDidUpdate() {
+    const chatDialog = document.getElementById('chatDialog')
+    chatDialog.scrollTop = chatDialog.scrollHeight;
+  }
+
   sendMessage = (message) => {
     const { user, peer } = this.state
     const { friend } = this.props

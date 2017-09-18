@@ -9,17 +9,24 @@ class ChatBoxContainer extends Component {
   }
 
   state = {
-    message: ''
+    message: '',
+  }
+
+  onSendMessageHandler = () => {
+    const message = this.state.message
+    if (message !== '') {
+      this.props.onSendMessage(this.state.message)
+    }
   }
 
   onClickSendMessageHandler = () => {
-    this.props.onSendMessage(this.state.message)
+    this.onSendMessageHandler(this.state.message)
     this.setState({ message: '' })
   }
 
   onTypingHandler = (event) => {
-    if (event.which == 13 || event.keyCode == 13) {
-      this.props.onSendMessage(this.state.message)
+    if (event.which === 13 || event.keyCode === 13) {
+      this.onSendMessageHandler(this.state.message)
       this.setState({ message: '' })
       event.target.value = ''
     } else {
