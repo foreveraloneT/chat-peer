@@ -60,3 +60,4 @@ export default {
 }
 
 export { default as ajax } from './apiObservable'
+export { default as peerReceive } from './peerObservable'

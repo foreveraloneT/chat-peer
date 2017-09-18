@@ -5,11 +5,12 @@ import rootReducer from '../reducers'
 import callAPIMiddleware from '../middlewares/callAPIMiddleware'
 import DevTools from '../containers/DevTools'
 import rootEpic from '../epics'
-import { ajax } from '../lib/services/api'
+import { ajax, peerReceive } from '../lib/services/api'
 
 const epicMiddleware = createEpicMiddleware(rootEpic, {
   dependencies: {
     callStaticAPI: ajax,
+    peerReceive,
   }
 })
 

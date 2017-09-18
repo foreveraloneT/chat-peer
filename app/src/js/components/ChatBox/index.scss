@@ -1,0 +1,27 @@
+.chatbox-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding: 8px 15px;
+  border-top: 1px solid #ccc;
+  .message-box-area {
+    width: 95%;
+    .message-box {
+      width: 100%;
+      outline: none;
+      border: none;
+      &::-webkit-input-placeholder {
+        color: #ddd;
+      }
+    }
+  }
+  .send-button-area {
+    width: 5%;
+    text-align: right;
+    .send-button {
+      font-size: 20px;
+      color: #0275d8;
+      cursor: pointer;
+    }
+  }
+}

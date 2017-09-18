@@ -10,4 +10,12 @@
     padding: 20px 0;
     border-bottom: 1px solid #ccc;
   }
+
+  .chat-area {
+    height: 100%;
+    position: relative;
+    .chat-dialog {
+      height: 80%;
+    }
+  }
 }

@@ -5,6 +5,7 @@ import loading from './loading'
 import userList from './userList'
 import friendSelect from './friendSelect'
 import friendList from './friendList'
+import chatHistory from './chatHistory'
 
 const rootReducer = combineReducers({
   entities,
@@ -13,6 +14,7 @@ const rootReducer = combineReducers({
   userList,
   friendSelect,
   friendList,
-});
+  chatHistory,
+})
 
 export default rootReducer
