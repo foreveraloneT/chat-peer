@@ -25,7 +25,7 @@ const routes = (
 
         <PrivateRoute path="/" exact component={Messenger} />
 
-        <Route path="*" component={ErrorPage} />
+        <Route path="*" component={MockLogin} />
       </Switch>
     </App>
   </Router>

@@ -2,7 +2,7 @@
   "name": "frontend-starterkit-react-v2",
   "version": "1.0.0",
   "description": "Front-end development starter kit for react redux version 2",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "gulp serve",
     "clean": "gulp clean",
@@ -14,7 +14,8 @@
     "package": "npm install && npm run deploy && sbt package",
     "server": "node server.js",
     "eslint": "eslint app/src/js",
-    "api": "json-server --watch ./api/db.json --port 8001"
+    "api": "json-server --watch ./api/db.json --port 8001",
+    "electron": "electron ."
   },
   "repository": {
     "type": "git",
@@ -61,6 +62,7 @@
     "babel-register": "^6.24.0",
     "css-loader": "^0.27.3",
     "del": "^2.2.2",
+    "electron": "^1.7.6",
     "eslint": "^3.18.0",
     "eslint-config-airbnb-base": "^11.1.1",
     "eslint-plugin-import": "^2.2.0",
