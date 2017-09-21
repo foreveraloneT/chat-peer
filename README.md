@@ -1,19 +1,38 @@
-# Front End Starter Kit - React version 2
+## About this project
+* Demo chat application using peer.js
+* Web application developed by React, Redux and Redux-Observable
+* This project use API from json-server
 
-Front End Starter Kit is a front-end template using React Redux and development environment for building web application.
-It does not impose a specific development philosophy, so you're free to architect your code in the way that you want.
+## Pre-install
 
-## Features
+install json server [https://github.com/typicode/json-server](https://github.com/typicode/json-server)
 
-* Develop web app using HTML5/CSS3/JavaScript
-* Support Sass - [Sass](http://sass-lang.com/) 
-* Javascript UI Library - [React](http://facebook.github.io/react/)
-* Automated workflow (build/run/deploy/test) using [gulp.js](http://gulpjs.com) and [webpack](https://webpack.github.io)
-* Javascript Test Framework - [Mocha](https://mochajs.org)
-* Support Javascript ES6
-* Built in node server
-* Ready for dockerizing
+```bash
+$ npm install -g json-server@0.10.0
+```
 
-## Documentation
+## How to run application
 
-[documentation table of contents](doc/TOC.md)
+1. Install dependencies package
+
+```bash
+$ npm install
+```
+2. Start json-server 
+
+```bash
+$ npm run api 
+```
+
+3. Run web application in localhost
+
+```bash
+$ npm start
+```
+
+then , go to [http://localhost:3009]() and enjoy.
+
+## License
+
+Sutee Suriyarueangwet 
+[unlimited.tee@gmail.com]()
