@@ -8,7 +8,7 @@
 install json server [https://github.com/typicode/json-server](https://github.com/typicode/json-server)
 
 ```bash
-$ npm install -g json-server@0.10.0
+$ npm install -g json-server
 ```
 
 ## How to run application
